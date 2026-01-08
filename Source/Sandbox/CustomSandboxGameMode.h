@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable, BlueprintType)
 class SANDBOX_API ACustomSandboxGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
